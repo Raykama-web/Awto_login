@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StufBaku | Partner Login</title>
+    <style>
+        :root {
+            --main-bg: #0f0f0f;
+            --accent: #ffffff;
+            --input-bg: #1a1a1a;
+            --border: #333;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--main-bg);
+            color: var(--accent);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .auth-card {
+            width: 100%;
+            max-width: 360px;
+            padding: 40px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: #111;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            margin-bottom: 8px;
+            color: #888;
+            text-transform: uppercase;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: #fff;
+            outline: none;
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: #fff;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #fff;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #ccc;
+        }
+
+        .meta-links {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="auth-card">
+    <h2>Client Access</h2>
+    <form>
+        <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="admin@store.az" required>
+        </div>
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" placeholder="••••••••" required>
+        </div>
+        <button type="submit">Sign In</button>
+    </form>
+    <div class="meta-links">
+        Development by Red Tent Studio / 2026
+    </div>
+</div>
+
+</body>
+</html>
+
